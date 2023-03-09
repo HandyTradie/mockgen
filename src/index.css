@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+a[aria-current="page"] {
+  color: rgb(0, 132, 255);
+}
+
+.w-hover {
+  transition: all .3s ease;
+}
+
+.w-hover:hover {
+  background-color: rgba(67, 83, 255, 1);
+}
+
+.text-slate-blue {
+  transition: color .3s ease;
+}
+
+.w-hover:hover .text-slate-blue {
+  color: #fff !important;
+}
+
+.btn {
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.back-btn {
+  color: rgb(0, 132, 255);
+  display: flex;
+  align-items: center;
+}
+
+.arrow-left {
+  font-size: 30px;
+  display: inline-block;
+  margin-right: 3px;
+  transition: transform .3s ease;
+}
+
+.back-btn:hover .arrow-left {
+  transform: translateX(-8px);
+}
+
+.img-prev {
+  position: relative;
+  width: max-content;
+  height: max-content;
+}
+
+.fa-minus-circle {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  color: #fff;
+  text-shadow: 5px 5px 5px rgba(0,0,0,.2);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.file-error {
+  width: min(100%, 700px);
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-inline: auto;
+  padding-block: 100px;
+  text-align: left;
+}
+
+.errorImg {
+  width: min(100%, 300px);
+  margin-bottom: 50px;
+}
+
+.file-error p,
+.file-error ul {
+  align-self: flex-start;
+}
+
+.file-error ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style-type: disc;
+  margin: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .btn {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,11 @@
+Jun 21, 2022 10:25:08 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+INFO: Started WebSocket server on ws://localhost:46305
+API endpoint: http://localhost:9090
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=localhost:9090
+
+Dev App Server is now running.
+
+*** shutting down gRPC server since JVM is shutting down
+*** server shut down

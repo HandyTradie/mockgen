@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "quizmine-dev"
+  },
+  "targets": {
+    "quizmine-dev": {
+      "hosting": {
+        "upgrades": [
+          "quizmine-dev"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

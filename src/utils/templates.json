@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Template 1",
+    "id": "template-1",
+    "path": "/assets/templates/template-1.png"
+  },
+  {
+    "name": "Template 2",
+    "id": "template-2",
+    "path": "/assets/templates/template-2.png"
+  },
+  {
+    "name": "Template 3",
+    "id": "template-3",
+    "path": "/assets/templates/template-3.png"
+  },
+  {
+    "name": "Template 4",
+    "id": "template-4",
+    "path": "/assets/templates/template-4.png"
+  },
+  {
+    "name": "Template 5",
+    "id": "template-5",
+    "path": "/assets/templates/template-5.png"
+  },
+  {
+    "name": "Template 6",
+    "id": "template-6",
+    "path": "/assets/templates/template-6.png"
+  }
+]
